@@ -77,3 +77,26 @@ format: csv
 
 Currently license information uses the first three lines of LICENSE files. If a repository doesn't have a LICENSE file
 `???` will be used.
+
+# Output
+
+Output can be in CSV, JSON, YAML. STDOUT is the default output.
+
+CSV: 
+
+```
+Parent,Package,License
+github.com/spf13/cobra,github.com/inconshreveable/mousetrap,Copyright 2014 Alan Shreve 
+github.com/spf13/cobra,github.com/spf13/pflag,Copyright (c) 2012 Alex Ogier. All rights reserved. Copyright (c) 2012 The Go Authors. All rights reserved.
+github.com/lucas-clemente/quic-go,github.com/cheekybits/genny/generic,The MIT License (MIT) 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/ackhandler,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/congestion,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/flowcontrol,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/handshake,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/protocol,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/qerr,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/utils,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/internal/wire,MIT License 
+github.com/lucas-clemente/quic-go,github.com/lucas-clemente/quic-go/quictrace,MIT License 
+
+```
